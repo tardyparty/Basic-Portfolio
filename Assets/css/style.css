@@ -1,3 +1,5 @@
+/* All Header Stuff */
+
 header {
     position: relative;
     border-bottom: 2px solid #cccccc;
@@ -5,7 +7,6 @@ header {
     font-family: Georgia, Times, 'Times New Roman', serif;
     width: 100%;
     height: 100px;
-    margin-bottom: 30px;
 }
 
 .headdiv {
@@ -33,6 +34,10 @@ h1 {
     color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     position: absolute;
     bottom: 30px;
@@ -46,35 +51,41 @@ nav {
     display: inline;
 }
 
+.navvv a {
+    color: #777777;
+}
+
+.navvv a:hover {
+    color: #555555;
+}
+
 .border {
     border-right: 1px solid #cccccc;
 }
 
+h1 a {
+    color: #ffffff;
+}
+
+/* All Page Stuff */
+
 body {
     position: relative;
-    min-height: 100vh;
+    min-height: 141.5vh;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/textured_paper.png");
 }
 
 .section {
     border: 2px solid #cccccc;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
     background-color: #ffffff;
     font-size: 15pt;
-}
-
-a {
-    text-decoration: none;
-    color: #777777;
-}
-
-.aboutme {
-    color: #777777;
-    height: 500px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -82,17 +93,27 @@ h2 {
     color: #4aaaa5;
 }
 
-#profile {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
 .title {
     border-bottom: 2px solid #cccccc;
     height: 50px;
     margin-bottom: 30px;
 }
+
+/* About Me Page */
+
+.aboutme {
+    color: #777777;
+    overflow: auto;
+}
+
+
+#profile {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+/* Contact Page */
 
 .form {
     font-size: 15pt;
@@ -109,7 +130,7 @@ h2 {
 .message {
     margin-top: 3px;
     width: 100%;
-    height: 225px;
+    height: 175px;
 }
 
 .submit {
@@ -117,27 +138,31 @@ h2 {
     margin-top: 30px;
     background-color: #4aaaa5;
     color: #ffffff;
+    margin-bottom: 30px;
 }
 
+/* Portfolio Page */
+
 .container {
-    display: inline;
+    position: relative;
+    display: inline-block;
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
 .imgtext {
     position: absolute;
+    display: inline-block;
     bottom: 30px;
     width: 240px;
     background-color: #4aaaa5;
     padding: 20px;
-}
-
-h3 {
     font-size: 20pt;
     color: #ffffff;
     text-align: center;
 }
+
+/* Footer */
 
 footer {
     position: absolute;
@@ -145,6 +170,6 @@ footer {
     border-top: 10px solid #4aaaa5;
     background-color: #666666;
     width: 100%;
-    height: 60px;
+    height: 50px;
     margin-top: 30px;
 }
